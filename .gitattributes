@@ -1,0 +1,17 @@
+# Normalize line endings: keep LF in the repository regardless of platform.
+# Prevents spurious "LF will be replaced by CRLF" noise on Windows checkouts
+# and keeps SKILL.md byte-identical across platforms.
+* text=auto eol=lf
+
+# Explicit for our own content types
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Binary assets — never touch
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary

@@ -1,0 +1,18 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Editors
+.vscode/
+.idea/
+
+# Agent / tool scratch
+.dsh/
+*.log
+
+# NOTE: assets/*.jpg and assets/*.png are intentionally COMMITTED.
+# They are non-commercial fan-use manga panels; see NOTICE.md for the
+# copyright status and the takedown commitment.
